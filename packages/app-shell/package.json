@@ -12,7 +12,5 @@
     "@zoo/components": "*"
   },
   "devDependencies": {
-    "ts-node": "^10.3.0",
-    "webpack-dev-server": "^4.3.1"
   }
 }
