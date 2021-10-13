@@ -24,6 +24,7 @@ Key settings here are
 * In the root tsconfig.json we define the packages as references
 * In the app-shell tsconfig.json file we reference the components lib so the compiler can build a dependency graph
 * In the app-shell webpack.config.js we set projectReferences to true for the ts-loader
+* We add components as depenendency to app-shell package.json file
 
 # Pros
 

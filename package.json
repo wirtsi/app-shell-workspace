@@ -8,7 +8,6 @@
   "scripts": {
     "dev": "cd packages/app-shell && yarn run dev",
     "storybook": "cd packages/components && yarn run dev",
-    "compile": "tsc --build --force tsconfig.json",
     "clean": "rm -rf packages/components/lib/ packages/app-shell/lib/"
   },
   "keywords": [],
