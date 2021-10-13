@@ -2,8 +2,7 @@
   "private": true,
   "name": "@zoo/components",
   "version": "1.0.0",
-  "main": "lib/index",
-  "types": "lib/index",
+  "main": "src/index",
   "scripts": {
     "dev": "webpack serve",
     "build": "webpack"
