@@ -37,7 +37,7 @@ module.exports = {
   devServer: {
     static: path.join(__dirname, "lib"),
     historyApiFallback: true,
-    port: 4000,
+    port: 3000,
     open: true,
   },
 };
