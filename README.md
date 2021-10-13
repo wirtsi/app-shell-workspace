@@ -46,10 +46,11 @@ packages use webpack and the parent level compile does not.
 
 * After the initial compile, TS will also see that references have been changed
 and recompile. Ie. if I change something in the components then `yarn run dev`
-will recompile
-* Faster compilation
+will recompile. The change detection seems to be a bit slow though
+* Faster compilation because it can use the compiled dependency
 
 # Cons
-* Need to find out how to use with webpack (css etc)
-* Weird usage with the compiling
+* Need to find out how to use with webpack (css etc). Because changes on a components
+css file will not be detected
+* Weird usage with the compiling first
 
