@@ -8,7 +8,8 @@
   "scripts": {
     "dev": "cd packages/app-shell && yarn run dev",
     "storybook": "cd packages/components && yarn run dev",
-    "compile": "tsc --build --force tsconfig.json",
+    "copy-css": "copyfiles -u 3 packages/components/src/**/*.css packages/components/lib/",
+    "compile": "yarn run copy-css && tsc --build --force tsconfig.json",
     "clean": "rm -rf packages/components/lib/ packages/app-shell/lib/"
   },
   "keywords": [],
