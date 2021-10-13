@@ -11,6 +11,10 @@ By convention the output of compiled files should go into the `lib` folder. Plea
 This is possible with (Project References)[https://www.typescriptlang.org/docs/handbook/project-references.html]
 
 
+# Yarn workspaces
+
+Developers should always install packages to "their" package with `yarn workspace <package> install <package>` and *not* by going into packages/<package> and running yarn install there
+
 # Setup
 
 This branch shows how to create workspace'd packages *that export
