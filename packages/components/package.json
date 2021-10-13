@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "name": "@zoo/components",
+  "version": "1.0.0",
+  "main": "lib/index",
+  "types": "lib/index",
+  "scripts": {
+    "dev": "webpack serve",
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^9.0.1",
+    "ts-node": "^10.3.0",
+    "webpack-dev-server": "^4.3.1"
+  },
+  "dependencies": {
+    "copy-webpack-plugin": "^9.0.1"
+  }
+}
