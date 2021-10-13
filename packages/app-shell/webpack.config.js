@@ -20,9 +20,9 @@ module.exports = {
         exclude: /node_modules/,
         use: {
           loader: "ts-loader",
-          "options": {
-          "projectReferences": true
-        },
+          options: {
+            projectReferences: true,
+          },
         },
       },
     ],
